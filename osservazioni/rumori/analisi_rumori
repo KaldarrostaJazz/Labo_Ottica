@@ -1,0 +1,28 @@
+static_g10_130
+Converted: 200	Not converted: 0
+926.035 3.68124
+---------------------------------------
+static_g100_40
+Converted: 200	Not converted: 0
+45.55 0.582405
+---------------------------------------
+rumore_static
+Converted: 320	Not converted: 0
+3.0375 0.271707
+---------------------------------------
+rumore_sweep
+Converted: 320	Not converted: 0
+3.025 0.273145
+---------------------------------------
+rumore_g100
+Converted: 62	Not converted: 0
+4.30323 0.3759
+---------------------------------------
+sweep_void_g100_uncertainties
+Converted: 400	Not converted: 0
+0.417967 0.197867
+---------------------------------------
+sweep_void_g100_intensities
+Converted: 400	Not converted: 0
+0.605 0.272324
+---------------------------------------

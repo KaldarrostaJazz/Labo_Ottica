@@ -1,0 +1,86 @@
+
+
+*******************************************************************************
+Sun May 22 12:31:43 2022
+
+
+FIT:    data read from '../../osservazioni/lab3/9_130.dat' u 1:2:($3+0.3) yerrors
+        format = x:z:s
+        #datapoints = 400
+function used for fitting: f(x)
+	f(x) = I * (cos(0.5*k*D*sin(atan((x-c)/L))))**2 * (sin(0.5*k*d*sin(atan((x-c)/L)))/(0.5*k*d*sin(atan((x-c)/L))))**2 + O
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   I             D             d             c             L             O            
+   0 1.5882661575e+04   0.00e+00  1.80e+03    1.600000e+02   2.500000e-04   1.500000e-04   6.025720e-02   1.432500e+00   1.000000e+00
+   6 7.4501258967e+02  -7.16e-02  1.80e+01    1.609671e+02   2.856797e-04   1.812793e-04   6.025727e-02   1.717094e+00   8.295567e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 745.013
+rel. change during last iteration : -7.16115e-07
+
+degrees of freedom    (FIT_NDF)                        : 394
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.3751
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.89089
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+I               = 160.967          +/- 0.2036       (0.1265%)
+D               = 0.00028568       +/- 2.675e-05    (9.365%)
+d               = 0.000181279      +/- 1.694e-05    (9.344%)
+c               = 0.0602573        +/- 9.874e-07    (0.001639%)
+L               = 1.71709          +/- 0.1608       (9.364%)
+O               = 0.829557         +/- 0.04547      (5.481%)
+
+correlation matrix of the fit parameters:
+                I      D      d      c      L      O      
+I               1.000 
+D               0.219  1.000 
+d               0.222  1.000  1.000 
+c              -0.127 -0.019 -0.021  1.000 
+L               0.219  1.000  1.000 -0.020  1.000 
+O              -0.406 -0.301 -0.298  0.010 -0.301  1.000 
+
+
+*******************************************************************************
+Wed May 25 11:42:24 2022
+
+
+FIT:    data read from '../../osservazioni/lab3/12_130.dat' u 1:2:($3+0.3) yerrors
+        format = x:z:s
+        #datapoints = 400
+function used for fitting: f(x)
+	f(x) = I * (cos(0.5*k*D*sin(atan((x-c)/L))))**2 * (sin(0.5*k*d*sin(atan((x-c)/L)))/(0.5*k*d*sin(atan((x-c)/L))))**2 + O
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   I             D             d             c             L             O            
+   0 1.5348849546e+04   0.00e+00  1.40e+03    7.000000e+01   3.000000e-04   1.000000e-04   6.028720e-02   1.432500e+00   1.000000e+00
+  22 7.7296623297e+02  -9.38e-01  1.40e+01    6.801902e+01   2.310280e-04   8.042476e-05   6.028776e-02   1.153192e+00   1.528752e+00
+
+After 22 iterations the fit converged.
+final sum of squares of residuals : 772.966
+rel. change during last iteration : -9.38182e-06
+
+degrees of freedom    (FIT_NDF)                        : 394
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.40066
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.96184
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+I               = 68.019           +/- 0.1738       (0.2554%)
+D               = 0.000231028      +/- 2.149e-05    (9.3%)
+d               = 8.04248e-05      +/- 7.358e-06    (9.149%)
+c               = 0.0602878        +/- 1.326e-06    (0.002199%)
+L               = 1.15319          +/- 0.1072       (9.294%)
+O               = 1.52875          +/- 0.05166      (3.379%)
+
+correlation matrix of the fit parameters:
+                I      D      d      c      L      O      
+I               1.000 
+D               0.338  1.000 
+d               0.345  1.000  1.000 
+c               0.011  0.041  0.041  1.000 
+L               0.338  1.000  1.000  0.040  1.000 
+O              -0.451 -0.634 -0.627 -0.051 -0.634  1.000 
